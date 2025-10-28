@@ -1,0 +1,330 @@
+*{
+/* Reset de la page  */
+    margin: 0;
+    padding: 0;
+    margin-top:0;
+    box-sizing: border-box;
+    font-size: auto;
+}
+
+/* Corps du site  */
+body {
+/* Couleur de fond  */
+    background-color: #040507;
+    color: #fff;
+/* Police  */
+  font-family: "Calligraffitti", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header{
+/* Designing du texte  */
+    color: #fff;
+    text-align: center;
+    margin: 0;
+
+/* Placement des éléments  */
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    align-items : center;
+
+/* Police  */
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+            /* Placement des éléments  */
+nav{
+    margin:0%;
+    justify-content: right;
+}
+
+/* Liste et éléments de la liste  */
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin: 0 20px;
+    padding: 0;
+    font-size : small;
+}
+
+            /* Liens  */
+a{
+    text-decoration: none;
+    color:white;
+    background-color: #60a5ff74;
+    border-radius:50px;
+    padding: 10px 20px;
+    
+}
+/* a:hover{
+    
+    text-shadow: 0 0 15px #60a4ff;
+
+} */
+
+            /* Logo custom  */
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+            /* Menu custom */
+
+
+        /* Les sections  */
+section{
+    display: flex;
+    flex-direction: row-reverse ; 
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2px;
+    padding: 20px;
+}
+
+div{
+/* Placement des éléments  */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    overflow: scroll;
+    scrollbar-width:thin;
+    scrollbar-color:#7994da #040507;
+}
+
+.box:hover{
+    box-shadow: 0 15px  15px #4f82b9;
+    width: 590px;
+    height: 190px;
+    margin-top: auto;
+}
+#Nous{
+    display: flex;
+    border: #7994da;
+    justify-content: center;
+    background-color: #0405076a;
+
+}
+.bureau{
+    color: #a879da;
+    text-shadow:10px 0 15px #a879da;
+}
+.intro{
+    font-size: 6em;
+}
+.sponsors{
+    border: 5px solid #4ca7af; 
+    padding: 15px; 
+    margin: 10px;
+    border-radius: 5px;
+
+}
+.billeterie{
+    border: 5px solid #b94fb1;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px/30px;
+    background-color: #b94fb073;
+    box-shadow: 0 0 15px #b94fb1;
+    transition: transform 0.3s ease;
+}
+footer{
+    background-color: #040507;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-style: normal;
+    box-shadow: 0 -5px 15px #7994da;
+
+    display: flex;
+    flex-direction:block;
+}
+.footer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center; 
+}
+
+
+        /* Les titres  */
+h1{
+    color: #b94fb1;
+    font-size: 40px;
+    text-align: center;
+}
+h1:hover{
+    color: #d644ca;
+    text-shadow: 20px 0 15px #e36cbf;
+}
+h2{
+    color: #7994da;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline wavy #3a3f9674 2px;
+}
+h3{
+    color: #4d8dd1;
+    font-size: 22px;
+    text-align: center;
+}
+h6{
+    font-size: 20px;
+    text-align: center;
+}
+
+          /* Texte */
+          str
+br{
+    text-align: center;
+}
+em{
+    color: #7994da;
+    text-shadow:10px 0 15px #7994da;
+}
+p{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align:center;
+}
+
+         /* Fichiers multimédia */
+video{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%/50%;
+    box-shadow: 0 0 15px #7994da;
+    margin: 20px auto;
+}
+img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #7994da;
+    margin: 20px auto;
+    display: block;
+    max-width: 100%;
+}
+.bureau_IMG{
+    width: 50%;
+    height: 50%;
+    box-shadow: none;
+
+
+}
+
+        /* Media responsive */
+
+@media screen and (min-width: 780px)
+{
+.full-width-img {
+margin: auto;
+width: 90%;
+}}
+
+            /* Tableau */
+table{
+    background-color: #3a3f9674;
+    border: 2px solid #4f82b9 ;
+    border-collapse: collapse;
+    width: 500px;
+    height: auto;
+}
+th, td{
+  border: 1px solid rgb(156, 173, 222);
+  padding: 10px;
+  vertical-align: top;
+}
+th{
+    background-color: #3a3f962d;
+}
+td{
+    background-color: #4f82b964 ;
+}
+
+/* Accordéon tableau sans JS */
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #efb6ea;
+    padding: 5px 0;
+    outline: none;
+    transition: color 0.2s;
+}
+details[open] summary {
+    color: #698eeb;
+}
+details {
+    margin-bottom: 5px;
+}
+ 
+            /* Formulaires  */
+Form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+label{
+    color: #7994da;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+input, textarea{
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #7994da;
+    border-radius: 5px;
+    background-color: #0405076a;
+    color: #fff;
+}
+input:hover, textarea:hover{
+    border-color: #4f82b9;
+    box-shadow: 0 0 10px #4f82b9;
+    background-color: #7994da;
+}
+select{
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #7994da;
+    border-radius: 5px;
+    background-color: #0405076a;
+    color: #fff;
+}
+.download-link {
+    color: #4f82b9;
+    font-weight: bold;
+    text-decoration: underline dotted #7994da;
+}
+.download-link:hover {
+    color: #b94fb1;
+}
+button{
+    background: linear-gradient(to top , rgb(104, 104, 228) , rgb(134, 185, 185));
+    border-radius: 20%/50%;
+    width: 200px;
+    height: 50px;
+}
+button:hover{
+    text-shadow: 15px 15px 15px  #a4bcd5;
+    color: #a4bcd5;
+    box-shadow: 10px  0 10px rgb(108, 134, 227) ;
+}

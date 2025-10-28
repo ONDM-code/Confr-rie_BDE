@@ -1,0 +1,24 @@
+📘 README – Journal de bord du projet Nom de la confrérie : ELECTRO
+
+Concept choisi : Création d'une plateforme interactive pour promouvoir la liste Électro ( une liste fictive ) qui se présenterait comme BDE de l’ESIEE.
+
+Inspiration : Inspiré des plateformes comme Sonja Van Duelman , Koketit se trouvant dans le classement de WIX.
+
+Étapes suivies
+J’ai commencé par définir l’image , les fonctionnalités ainsi que les parties clés de la plateforme. Ensuite, J’ai réalisé un croquis , puis avec Figma j’ai réalisé des maquettes avant de passer au développement car j’avais beaucoup d’idées de design et je n’arrivais pas à me décider. Les principales difficultés ont été liées à l'intégration des fonctionnalités et à l'optimisation de l'interface utilisateur , l’ajout de menu en accordéon dans le tableau , la gestion des hovers et l’attrait pour des éléments précis ( vidéo , titre néon ).
+
+Outils et ressources
+J’ai utilisé Visual Studio Code comme IDE principal. Les sites de référence incluent :
+• W3Schools pour le HTML/CSS ,
+• Google chrome pour la visualisation ,
+• Font googles pour les polices
+• WIX pour des inspirations de design
+• ChatGPT pour des conseils de programmation et des solutions à des problèmes
+spécifiques.
+• pierre-giraud.com pour la réalisation des bordures
+• GitHub pour le suivi des versions .
+
+Certes , il n’ait pas le rendu premier attendu mais il est sans doute , un site que j’aurai aimé visiter .
+
+Bilan
+Je suis contente de la fonctionnalité et de l'esthétique de mon blog , mais j’aurai aimé améliorer la réactivité mobile. Environ 20 à 40 heures ont été consacrées au projet, hors pauses en comptant le travail en dehors de l’école . Ce projet m'a permis de développer mes compétences en programmation et en gestion de projet .
