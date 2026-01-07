@@ -1,395 +1,351 @@
-<!-- Déclaration du type de document et langue -->
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <!-- Métadonnées de la page -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Liste Électro</title>
-        <!-- Lien vers la feuille de style CSS -->
-        <link rel="stylesheet" href="Electro.css">
-    </head>
-    <body>
-        <!-- En-tête du site avec logo et menu de navigation -->
-        <header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste Électro</title>
+    <link rel="stylesheet" href="Electro.css">
+</head>
+<body id="top">
+    <!-- En-tête du site avec logo et menu de navigation -->
+    <header>
+        <div>
+            <img src="Images/Logo_Electro.png" alt="Logo de la Liste Électro" class="logo">
+        </div>
+        <nav> 
+            <ul>
+                <li><a href="#Nous">Qui sommes nous ?</a></li>
+                <li><a href="#programme">Programme de l'année</a></li>
+                <li><a href="#sponsors">Nos sponsors</a></li>
+                <li><a href="#Billeterie">Billeterie</a></li>
+                <li><a href="#Contact">Nous contacter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section introduction -->
+        <section class="intro">
             <div>
-                <img src="Images/Logo_Electro.png" alt="Logo de la Liste Électro" class="logo">
+                <video controls autoplay src="Video1.mp4">
+                    Votre navigateur ne supporte pas la lecture de vidéos.
+                </video>
             </div>
             <div>
-            <!-- Liens de navigation vers les sections principales -->
-             <nav> 
-                <ul>
-                    <li><a href="#Nous">Qui sommes nous ?</a></li>
-                    <li><a href="#programme">Programme de l'année</a></li>
-                    <li><a href="#sponsors">Nos sponsors </a></li>
-                    <li><a href="#Billeterie">Billeterie</a></li>
-                    <li><a href="#Contact">Nous-contactez </a></li>
-                </ul>
-            </nav>
+                <h1>Bienvenue dans l'aventure, <br>les Electro !</h1>
+                <p>Plongez dans un univers où la musique électro fusionne avec des expériences inoubliables.</p>
+                <p>
+                    Avec la <em>liste ELECTRO</em>, chaque battement de cœur résonne avec l'énergie des soirées enflammées et des événements captivants. 
+                    <br>Rejoignez-nous pour des soirées légendaires, des ateliers palpitants et des festivals qui éveillent vos sens. 
+                    <br>Ensemble, faisons vibrer la scène à l'ESIEE et créons des souvenirs qui brillent comme des étoiles dans la nuit. 
+                    <br>Préparez-vous à vivre une aventure électrique où chaque instant est une célébration de la musique et de la vie étudiante !
+                </p>
             </div>
-        </header>
-        <main>
-                <!-- Section d’introduction avec vidéo et message de bienvenue -->
-            <section>
-                <div class="intro"><!-- Vidéo de présentation -->
-                        <video controls src="Video1.mp4" autoplay>
-                        Votre navigateur ne supporte pas la lecture de vidéos.
-                        </video>
-                </div >
-                <div>
-                    <!-- Message de bienvenue -->
-                    <h1> Bienvenue dans l'aventure , 
-                        <br>les Electro !</h1>
-                    <p>Plongez dans un univers où la musique électro fusionne avec des expériences inoubliables.</p>
-                    <p><br>Avec la<em> liste ELECTRO</em>, chaque battement de cœur résonne avec l'énergie des soirées enflammées et des événements captivants. 
-                        <br>Rejoignez-nous pour des soirées légendaires, des ateliers palpitants et des festivals qui éveillent vos sens. 
-                        <br>Ensemble, faisons vibrer la scène à l'ESIEE et créons des souvenirs qui brillent comme des étoiles dans la nuit. 
-                        <br>Préparez-vous à vivre une aventure électrique où chaque instant est une célébration de la musique et de la vie étudiante !
-                    </p>
-                </div>
-            </section>
+        </section>
 
-                <!-- Section présentation de l’équipe -->
-                <h1 id="Nous">Qui sommes nous ?</h1>
-                    <p>Le Bureau de la Liste Électro est une équipe d'experts passionnés par la musique électronique, dédiée à la création et à l'organisation d'événements qui font vibrer la scène.</p>
-                            <!-- Cartes de présentation des membres -->
-                    <h2>Les Beats Makers</h2> 
-            <section>
-                <div class="box">
-                    <em><strong> Bassline Boss </strong></em>
-                    <img src="Images/Bassline boss.png" class="bureau_IMG">
-                    <p><em>Trésorier</em>, Julien gère les finances avec précision. 
-                        <br>Sa capacité à optimiser le budget nous permet d'investir dans des équipements de pointe et des artistes de renom.
-                    </p>
-                </div>  
-                <div class="box">
-                <em><strong>SyncMaster</strong></em>
-                    <img src="Images/Sync Master.png" class="bureau_IMG">
-                    <p><em> Le secrétaire </em> , Kayl est le chef d'orchestre de l'organisation interne. 
-                        <br>Il gère la documentation, prend en charge les comptes rendus des réunions et veille à la bonne circulation des informations au sein de l'équipe.
-                </div>
-                <div class="box">
-                <em><strong> Vibe Vice </strong></em>
-                <img src="Images/Vibe Vice.png" class="bureau_IMG">
-                    <p><em> Vice-président</em>, orchestre l'énergie de l'organisation, soutenant le DJ principal (le président) en mixant idées et projets. 
-                        <br>Iona synchronise les équipes et transforme les défis en drops, garantissant que l'organisation reste sur la dancefloor du succès.
-                    </div>
-                
-                <div class="box">
-                <em><strong> Beat Master</strong></em>
-                <img src="Images/Beat Master.png" class="bureau_IMG">
-                    <p><em>Président</em>, Maxime est le chef d'orchestre de nos événements. 
-                        <br>Il maîtrise l'art de la programmation et sait comment faire monter la pression sur le dancefloor.</p>
-                </div>
-            </section>
+        <!-- Section présentation de l’équipe -->
+        <section>
+            <h1 id="Nous">Qui sommes nous ?</h1>
+            <p>Le Bureau de la Liste Électro est une équipe d'experts passionnés par la musique électronique, dédiée à la création et à l'organisation d'événements qui font vibrer la scène.</p>
 
-            <h2> LES TEV SEV </h2>
-            <section>
-                <div class="box">
-                    <em class="bureau"><strong> Vibe Curator </strong></em>
-                    <img src="Images/Vibe curator.png" class="bureau_IMG">
-                        <p><em class="bureau">Respo Vibes & Visuels</em>, Clara est responsable de la communication et du branding. 
-                            <br>Elle crée des visuels percutants et utilise les réseaux sociaux pour diffuser les bonnes vibes de nos soirées.</p>
-                </div>
-                <div class="box">
-                    <em class="bureau"><strong> Event Architect </strong></em>
-                    <img src="Images/Event architect.png" class="bureau_IMG">
-                    <p><em class="bureau">Respo Event & Experience</em>, Sophie conçoit des expériences immersives.
-                        <br> Elle s'assure que chaque soirée soit un véritable voyage sonore, avec une scénographie qui en met plein la vue.
-                    </p>
-                </div>
-                <div class="box">
-                    <em class="bureau"><strong>Logitech </strong></em>
-                    <img src="Images/Logitech.png" class="bureau_IMG">
-                    <p><em class="bureau">Respo Tech & Sound </em> , Jules  Le maestro de la logistique, "LogiTech" s'assure que chaque événement se déroule sans accroc.
-                        <br>il veille à ce que tout soit parfaitement synchronisé pour une expérience électro inoubliable.
-                    </p>
-                </div>
+            <h2>Les Beats Makers</h2>
+            <div class="team">
+                <article class="box">
+                    <em><strong>Bassline Boss</strong></em>
+                    <img src="Images/Bassline boss.png" class="bureau_IMG" alt="Julien, Trésorier">
+                    <p><em>Trésorier</em> : Julien gère les finances avec précision. Sa capacité à optimiser le budget nous permet d'investir dans des équipements de pointe et des artistes de renom.</p>
+                </article>
 
-            </section>
-                        <!-- Section planning des événements avec tableau accordéon -->
-                     <h1 style="color: #4f82b9; text-shadow: 0 0 20px #4f82b9;" id="programme"> 
-                        Programme de l'année
-                     </h1>
-            <section>
-                <!-- Le tableau de planning  -->
-                <div>
-            <!-- Tableau des activités par mois -->
-        <table>
-    <thead>
-        <tr>
-            <th>Mois</th>
-            <th>Activités</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Janvier</td>
-            <td>
-                <details>
-                    <summary>Voyage au ski avec le BDE</summary>
-                    Séjour à la montagne pour profiter des sports d'hiver et des activités de groupe.
-                </details>
-                <details>
-                    <summary>Jeux de société en soirée</summary>
-                    Soirée conviviale autour de jeux de société avec des prix pour les gagnants.
-                </details>
-            </td>
-        </tr>
-        <tr>
-            <td>Février</td>
-            <td>
-                <details>
-                    <summary>Concours de remix</summary>
-                    Soumission de remixes de morceaux populaires, avec des prix pour les meilleurs.
-                </details>
-                <details>
-                    <summary>Jeux concours de Saint-Valentin</summary>
-                    Activités thématiques avec des prix romantiques à gagner.
-                </details>
-            </td>
-        </tr>
-        <tr>
-            <td>Mars</td>
-            <td>
-                <details>
-                    <summary>Festival de musique électro</summary>
-                    Événement majeur avec plusieurs DJ et artistes, offrant une expérience immersive.
-                </details>
-                <details>
-                    <summary>Jeux concours de danse</summary>
-                    Concours de danse sur des morceaux électro, avec des prix pour les meilleures performances.
-                </details>
-            </td>
-        </tr>
-        </tbody>
-        </table>
-                </div>
-             <div>
-                <table>                 
-    <thead>
-        <tr>
-            <th>Mois</th>
-            <th>Activités</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Octobre</td>
-            <td>
-                <details>
-                    <summary>Voyage avec le BDE</summary>
-                    Excursion d'une journée à la montagne avec transport et repas inclus.
-                </details>
-                <details>
-                    <summary>Jeux concours</summary>
-                    Compétitions amusantes avec des prix à gagner pour les participants.
-                </details>
-            </td>
-        </tr>
-        <tr>
-            <td>Novembre</td>
-            <td>
-                <details>
-                    <summary>Passation au BDE suivant</summary>
-                    Cérémonie de passation des responsabilités au nouveau bureau des étudiants.
-                </details>
-                <details>
-                    <summary>Atelier de production musicale</summary>
-                    Apprentissage des techniques de production musicale et utilisation de logiciels.
-                </details>
-            </td>
-        </tr>
-        <tr>
-            <td>Décembre</td>
-            <td>
-                <details>
-                    <summary>Fête de fin d'année</summary>
-                    Célébration avec un DJ invité et des jeux pour marquer la fin du semestre.
-                </details>
-                <details>
-                    <summary>Jeux concours de Noël</summary>
-                    Activités festives avec des prix, incluant des quiz et des défis.
-                </details>
-            </td>
-        </tr>
-    </tbody>
-               </table>
+                <article class="box">
+                    <em><strong>SyncMaster</strong></em>
+                    <img src="Images/Sync Master.png" class="bureau_IMG" alt="Kayl, Secrétaire">
+                    <p><em>Secrétaire</em> : Kayl est le chef d'orchestre de l'organisation interne. Il gère la documentation, prend en charge les comptes rendus des réunions et veille à la bonne circulation des informations au sein de l'équipe.</p>
+                </article>
+
+                <article class="box">
+                    <em><strong>Vibe Vice</strong></em>
+                    <img src="Images/Vibe Vice.png" class="bureau_IMG" alt="Iona, Vice-présidente">
+                    <p><em>Vice-président</em> : Iona orchestre l'énergie de l'organisation, soutenant le DJ principal (le président) en mixant idées et projets. Elle synchronise les équipes et transforme les défis en drops, garantissant que l'organisation reste sur la dancefloor du succès.</p>
+                </article>
+
+                <article class="box">
+                    <em><strong>Beat Master</strong></em>
+                    <img src="Images/Beat Master.png" class="bureau_IMG" alt="Maxime, Président">
+                    <p><em>Président</em> : Maxime est le chef d'orchestre de nos événements. Il maîtrise l'art de la programmation et sait comment faire monter la pression sur le dancefloor.</p>
+                </article>
             </div>
-            </section>
-            
-            <section>
-                <div>
+
+            <h2>LES TEV SEV</h2>
+            <div class="team">
+                <article class="box">
+                    <em><strong>Vibe Curator</strong></em>
+                    <img src="Images/Vibe curator.png" class="bureau_IMG" alt="Clara, Respo Vibes & Visuels">
+                    <p><em>Respo Vibes & Visuels</em> : Clara est responsable de la communication et du branding. Elle crée des visuels percutants et utilise les réseaux sociaux pour diffuser les bonnes vibes de nos soirées.</p>
+                </article>
+
+                <article class="box">
+                    <em><strong>Event Architect</strong></em>
+                    <img src="Images/Event architect.png" class="bureau_IMG" alt="Sophie, Respo Event & Experience">
+                    <p><em>Respo Event & Experience</em> : Sophie conçoit des expériences immersives. Elle s'assure que chaque soirée soit un véritable voyage sonore, avec une scénographie qui en met plein la vue.</p>
+                </article>
+
+                <article class="box">
+                    <em><strong>Logitech</strong></em>
+                    <img src="Images/Logitech.png" class="bureau_IMG" alt="Jules, Respo Tech & Sound">
+                    <p><em>Respo Tech & Sound</em> : Jules, le maestro de la logistique, s'assure que chaque événement se déroule sans accroc. Il veille à ce que tout soit parfaitement synchronisé pour une expérience électro inoubliable.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section programme -->
+        <section>
+            <h1 id="programme">Programme de l'année</h1>
+            <div>
                 <table>
-    <thead>
-        <tr>
-            <th>Mois</th>
-            <th>Activités</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Avril</td>
-            <td>
-                <details>
-                    <summary>Conférence sur l'innovation dans l'électro</summary>
-                    Discussions sur les dernières innovations technologiques dans la musique électro.
-                </details>
-                <details>
-                    <summary>Jeux concours de printemps</summary>
-                    Activités ludiques en plein air avec des prix pour les participants.
-                </details>
-            </td>
-        </tr>
-        <tr>
-            <td>Mai</td>
-            <td>
-                <details>
-                    <summary>Sortie en plein air avec DJ set</summary>
-                    Journée en plein air avec un DJ, permettant aux étudiants de profiter de la musique.
-                </details>
-                <details>
-                    <summary>Jeux concours de fin d'année</summary>
-                    Activités finales avec des prix et des défis amusants pour célébrer la fin de l'année scolaire.
-                </details>
-            </td>
-        </tr>
-        <tr>
-            <td>Juin</td>
-            <td>
-                <details>
-                    <summary>Voyage de fin d'année avec le BDE</summary>
-                    Voyage organisé pour célébrer la fin de l'année scolaire dans un lieu festif.
-                </details>
-                <details>
-                    <summary>Passation finale au BDE</summary>
-                    Cérémonie de clôture et passation des responsabilités au nouveau bureau des étudiants.
-                </details>
-            </td>
-        </tr>
-    </tbody>
+                    <thead>
+                        <tr>
+                            <th>Mois</th>
+                            <th>Activités</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Janvier</td>
+                            <td>
+                                <details>
+                                    <summary>Voyage au ski avec le BDE</summary>
+                                    Séjour à la montagne pour profiter des sports d'hiver et des activités de groupe.
+                                </details>
+                                <details>
+                                    <summary>Jeux de société en soirée</summary>
+                                    Soirée conviviale autour de jeux de société avec des prix pour les gagnants.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Février</td>
+                            <td>
+                                <details>
+                                    <summary>Concours de remix</summary>
+                                    Soumission de remixes de morceaux populaires, avec des prix pour les meilleurs.
+                                </details>
+                                <details>
+                                    <summary>Jeux concours de Saint-Valentin</summary>
+                                    Activités thématiques avec des prix romantiques à gagner.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mars</td>
+                            <td>
+                                <details>
+                                    <summary>Festival de musique électro</summary>
+                                    Événement majeur avec plusieurs DJ et artistes, offrant une expérience immersive.
+                                </details>
+                                <details>
+                                    <summary>Jeux concours de danse</summary>
+                                    Concours de danse sur des morceaux électro, avec des prix pour les meilleures performances.
+                                </details>
+                            </td>
+                        </tr>
+                        <!-- Avril à Juin -->
+                        <tr>
+                            <td>Avril</td>
+                            <td>
+                                <details>
+                                    <summary>Conférence sur l'innovation dans l'électro</summary>
+                                    Discussions sur les dernières innovations technologiques dans la musique électro.
+                                </details>
+                                <details>
+                                    <summary>Jeux concours de printemps</summary>
+                                    Activités ludiques en plein air avec des prix pour les participants.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Mai</td>
+                            <td>
+                                <details>
+                                    <summary>Sortie en plein air avec DJ set</summary>
+                                    Journée en plein air avec un DJ, permettant aux étudiants de profiter de la musique.
+                                </details>
+                                <details>
+                                    <summary>Jeux concours de fin d'année</summary>
+                                    Activités finales avec des prix et des défis amusants pour célébrer la fin de l'année scolaire.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Juin</td>
+                            <td>
+                                <details>
+                                    <summary>Voyage de fin d'année avec le BDE</summary>
+                                    Voyage organisé pour célébrer la fin de l'année scolaire dans un lieu festif.
+                                </details>
+                                <details>
+                                    <summary>Passation finale au BDE</summary>
+                                    Cérémonie de clôture et passation des responsabilités au nouveau bureau des étudiants.
+                                </details>
+                            </td>
+                        </tr>
+                        <!-- Octobre à Décembre -->
+                        <tr>
+                            <td>Octobre</td>
+                            <td>
+                                <details>
+                                    <summary>Voyage avec le BDE</summary>
+                                    Excursion d'une journée à la montagne avec transport et repas inclus.
+                                </details>
+                                <details>
+                                    <summary>Jeux concours</summary>
+                                    Compétitions amusantes avec des prix à gagner pour les participants.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Novembre</td>
+                            <td>
+                                <details>
+                                    <summary>Passation au BDE suivant</summary>
+                                    Cérémonie de passation des responsabilités au nouveau bureau des étudiants.
+                                </details>
+                                <details>
+                                    <summary>Atelier de production musicale</summary>
+                                    Apprentissage des techniques de production musicale et utilisation de logiciels.
+                                </details>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Décembre</td>
+                            <td>
+                                <details>
+                                    <summary>Fête de fin d'année</summary>
+                                    Célébration avec un DJ invité et des jeux pour marquer la fin du semestre.
+                                </details>
+                                <details>
+                                    <summary>Jeux concours de Noël</summary>
+                                    Activités festives avec des prix, incluant des quiz et des défis.
+                                </details>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
-                </div>
-            </section>
+            </div>
+        </section>
 
-            <!-- Section sponsors -->
-            <h1 style="color: rgb(127, 255, 238) ; text-shadow: 15px 0 15px rgb(127, 236, 255);" id="sponsors">Sponsors</h1>
-                <section>
-                    <div class="sponsors"> 
-                    <h3>TechnoCorp</h3> <p><strong>Type de Sponsoring : </strong> <em>Technologie</em></p> <p>Fournisseur de matériel audio et vidéo pour événements.</p> 
-                    </div> 
-                    <div class="sponsors">
-                        <h3>ElectroBeats</h3><p><strong>Type de Sponsoring : </strong><em>Musique</em></p> <p>Label de musique spécialisé dans l'électro, soutien d'artistes émergents.</p> 
-                    </div>
-                </section>
-               <section>
-                
-                    <div class="sponsors"> 
-                        <h3>Foodies United</h3> <p><strong>Type de Sponsoring : </strong><em>Restauration</em></p><p>Service de traiteur proposant des options variées pour les événements.</p> 
-                    </div>
-                </section>
-                <section>
-                    <div class="sponsors">  
-                        <h3>GreenEnergy</h3> <p><strong>Type de Sponsoring : </strong><em>Écologie</em></p> <p>Entreprise spécialisée dans les solutions énergétiques durables.</p> 
-                    </div> 
-                    <div class="sponsors">
-                        <h3>FashionWave</h3> <p><strong>Type de Sponsoring : </strong><em><br>Mode</em></p> <p>Marque de vêtements écoresponsables, partenaire des événements de mode.</p> 
-                    </div>
-                </section>
-             
-            
-                <!-- Section billetterie -->
-                <h1 id="Billeterie">Billeterie</h1>
-            <section class="billeterie">
-                <div class="billetterie">
-                    <img src="Images/Billet.jpg" alt="Image de billetterie" class="billetterie-image">
-                    <p>Pour acheter vos billets pour nos événements, veuillez visiter notre site de billetterie en ligne.</p>
-                    <p>Nous acceptons les paiements par carte bancaire et PayPal.</p>
-                    <p>Les billets sont disponibles à l'achat jusqu'à 24 heures avant le début de l'événement.</p>
-                    <br><a href="https://www.example.com/billetterie" target="_blank">Acheter des billets</a>
-                </div>
-            </section>
-
-                    <br><h1 style="color: rgb(189, 127, 255) ; text-shadow: 15px 0 15px rgb(189, 127, 255);" id="Contact">Nous contacter</h1>
-                <p>Pour toute question ou demande d'information, n'hésitez pas à nous contacter :</p>
-            <section class="contact">
+        <!-- Section sponsors -->
+        <section>
+            <h1 id="sponsors">Sponsors</h1>
+            <div class="sponsors">
                 <div>
-                <!-- Formulaire de contact -->
-                <form>
-                    <h2><label for="contact-form">Formulaire de contact :</label></h2>
-                    <input type="hidden" name="form-type" value="contact">
-                <br>
-                    <label for="civility">Civilité :</label>
-                    <select id="civility" name="civility" required>
-                        <option value="" disabled selected>Choisissez une option</option>
-                        <option value=""> </option>
-                        <option value="Monsieur">Monsieur</option>
-                        <option value="Madame">Madame</option>
-                        <option value="Autre">Autre</option>
-                    </select>
-                <br>
-                    <label for="name">Nom :</label>
-                    <input type="text" id="name" name="name" required>
-                <br>
-                    <label for="surname">Prénom :</label>
-                    <input type="text" id="surname" name="surname" required>
-                <br>
-                    <label for="email">Email :</label>
-                    <input type="email" id="email" name="email" required>
-                <br>
-                    <label for="subject">Sujet :</label>
-                    <input type="text" id="subject" name="subject" required>
-                <br>
-                    <label for="message">Message :</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-
-                    <button type="submit">Envoyer</button>
-                </form>
+                    <h3>TechnoCorp</h3>
+                    <p><strong>Type : </strong><em>Technologie</em></p>
+                    <p>Fournisseur de matériel audio et vidéo pour événements.</p>
                 </div>
-            </section>
-        </main>
+                <div>
+                    <h3>ElectroBeats</h3>
+                    <p><strong>Type : </strong><em>Musique</em></p>
+                    <p>Label de musique spécialisé dans l'électro, soutien d'artistes émergents.</p>
+                </div>
+                <div>
+                    <h3>Foodies United</h3>
+                    <p><strong>Type : </strong><em>Restauration</em></p>
+                    <p>Service de traiteur proposant des options variées pour les événements.</p>
+                </div>
+                <div>
+                    <h3>GreenEnergy</h3>
+                    <p><strong>Type : </strong><em>Écologie</em></p>
+                    <p>Entreprise spécialisée dans les solutions énergétiques durables.</p>
+                </div>
+                <div>
+                    <h3>FashionWave</h3>
+                    <p><strong>Type : </strong><em>Mode</em></p>
+                    <p>Marque de vêtements écoresponsables, partenaire des événements de mode.</p>
+                </div>
+            </div>
+        </section>
 
-       <!-- Pied de page avec liens utiles, téléchargement et réseaux sociaux -->
-        <footer>
+        <!-- Section billetterie -->
+        <section id="Billeterie" class="billeterie">
+            <div class="billetterie">
+                <img src="Images/Billet.jpg" alt="Image de billetterie" class="billetterie-image">
+                <p>Pour acheter vos billets pour nos événements, veuillez visiter notre site de billetterie en ligne.</p>
+                <p>Nous acceptons les paiements par carte bancaire et PayPal.</p>
+                <p>Les billets sont disponibles à l'achat jusqu'à 24 heures avant le début de l'événement.</p>
+                <br><a href="https://www.example.com/billetterie" target="_blank">Acheter des billets</a>
+            </div>
+        </section>
+
+        <!-- Section contact -->
+        <section id="Contact" class="contact">
+            <h1>Nous contacter</h1>
+            <p>Pour toute question ou demande d'information, n'hésitez pas à nous contacter :</p>
+            <form action="traitement.php" method="post">
+                <h2><label for="contact-form">Formulaire de contact :</label></h2>
+                <input type="hidden" name="form-type" value="contact">
+
+                <label for="civility">Civilité :</label>
+                <select id="civility" name="civility" required>
+                    <option value="" disabled selected>Choisissez une option</option>
+                    <option value="Monsieur">Monsieur</option>
+                    <option value="Madame">Madame</option>
+                    <option value="Autre">Autre</option>
+                </select>
+                <br>
+
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required placeholder="Votre nom">
+                <br>
+
+                <label for="surname">Prénom :</label>
+                <input type="text" id="surname" name="surname" required placeholder="Votre prénom">
+                <br>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required placeholder="exemple@email.com">
+                <br>
+
+                <label for="subject">Sujet :</label>
+                <input type="text" id="subject" name="subject" required placeholder="Sujet de votre message">
+                <br>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required placeholder="Votre message..."></textarea>
+                <br>
+
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
         <div class="footer">
-            <h2>Liens utiles</h2> <!-- Liens externes -->
-            <br><ul>
+            <h2>Liens utiles</h2>
+            <ul>
                 <li><a href="https://www.esiee.fr" target="_blank">Site de l'ESIEE</a></li>
                 <li><a href="https://www.bde-esiee.fr" target="_blank">BDE de l'ESIEE</a></li>
                 <li><a href="https://www.electroesiee.com" target="_blank">Site Électro</a></li>
             </ul>
             <div>
-                <!-- Lien de téléchargement du document PDF -->
                 Télécharger le journal de Bord de ce blog
-            <a href="📘 README - Journal de bord du projet .pdf" target="_blank" download="Journal_de_Bord_Electro.pdf" class="download-link">
-                📄 PDF
-            </a>
-        </div>
-        </div>
-        <section class="footer">
-         <div>
-            <!-- Liens vers les réseaux sociaux -->
-                    <h2>Nos réseaux sociaux</h2>
-                <div>
-                    <ul>
-                        <li><a href="https://www.facebook.com/ElectroESIEE" target="_blank">Facebook</a></li>
-                        <li><a href="https://www.instagram.com/ElectroESIEE" target="_blank">Instagram</a></li>
-                        <li><a href="https://www.twitter.com/ElectroESIEE" target="_blank">Twitter</a></li>
-                        <li><a href="https://www.tiktok.com/@ElectroESIEE" target="_blank">TikTok</a></li>
-                    </ul>
-                </div>
+                <a href="Journal_de_Bord_Electro.pdf" target="_blank" download class="download-link">📄 PDF</a>
+            </div>
+
+            <h2>Nos réseaux sociaux</h2>
+            <ul>
+                <li><a href="https://www.facebook.com/ElectroESIEE" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com/ElectroESIEE" target="_blank">Instagram</a></li>
+                <li><a href="https://www.twitter.com/ElectroESIEE" target="_blank">Twitter</a></li>
+                <li><a href="https://www.tiktok.com/@ElectroESIEE" target="_blank">TikTok</a></li>
+            </ul>
+
             <div>
-                Revenir en haut de la page
                 <a href="#top" class="back-to-top">Haut de page</a>
             </div>
         </div>
-        
-        </section> 
-        
-        
-        </footer>
-        <!-- Mentions légales -->
         <p>&copy; 2025 Liste Électro. Tous droits réservés.</p>
-                <p>Site créé par l'équipe de la Liste Électro.</p>
-    </body>
+        <p>Site créé par l'équipe de la Liste Électro.</p>
+    </footer>
+</body>
 </html>
